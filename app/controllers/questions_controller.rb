@@ -3,8 +3,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @question = params[:question]
-    @answer = ''
-
     @answer = if @question == 'I am going to work'
                 'Great!'
               elsif @question.include? '?'

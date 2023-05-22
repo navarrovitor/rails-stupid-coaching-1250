@@ -42,3 +42,7 @@ blockquote.coach p {
 cite:before {
   content: "—";
 }
+
+a {
+  text-decoration: none;
+}
